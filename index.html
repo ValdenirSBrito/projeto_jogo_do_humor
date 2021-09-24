@@ -1,0 +1,52 @@
+<!-- Criação do repositório exclusivo no GitHub - 1 ponto;
+Utilização de HTML, CSS e JS puros (sem utilização de framework) - 1 ponto;
+Botão de alteração de humor funcional - 2 pontos;
+No mínimo 3 trocas de humor - 2 pontos ;
+No mínimo 2 elementos do DOM alterados (texto e imagem) - 2 pontos;
+Deploy do projeto no GitHub Pages  - 1 ponto;
+Responsividade aplicada - 1 ponto; -->
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Jogo do Humor</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./assets/style.css'>
+    
+</head>
+<body>
+    <nav>
+        <ul>
+
+        </ul>
+    </nav>
+    <header>
+        <h1>Jogo do Humor do THOR</h1>
+        <img src="./assets/img/thor.png" alt="Thor o Deus Trovão" height="200">
+    </header>
+    <section id="infos">
+
+        <div id="txt">
+            <h2>Nome: <span id="nome">THOR</span> </h2>
+            <h3>Situação: <span id="situacao">Tranquilo</span> </h3>
+            <!--Foi adicionado um valor ao botão para fazer a comparação desse elemento no JS-->
+            <button value="primeiro" id="alterar">Alterar Situação</button> 
+            
+        </div>
+
+        <div id="img">
+            <img id="imagem" src="./assets/img/thor_normal2.png" alt="Thor Normal" height="300" >
+        </div>
+               
+
+    </section>
+    <footer>&copy - Todos os Direitos Reservados.</footer>
+    <script src="./assets/script.js"></script>
+</body>
+</html>
+
+
